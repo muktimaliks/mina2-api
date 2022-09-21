@@ -1,0 +1,21 @@
+_id: env_0a4748841f6749389c680a8f0b62457c
+type: Environment
+parentId: env_41f80c3e1d7030130f9a5e3a32c25ec7e69018f6
+modified: 1663728527684
+created: 1663728339230
+name: Local
+data:
+  url: http://localhost:8080
+  token: "{% response 'body', 'req_73fa8bf473a64de5bc327a570fbee07c',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+  sso: 8d975ec6c4508c7d3f18f4e19b37b024a8d0907be671bfe790dae90a3bf446bd
+  username: "{% now 'millis', '' %}"
+dataPropertyOrder:
+  "&":
+    - url
+    - token
+    - sso
+    - username
+color: null
+isPrivate: false
+metaSortKey: 1663728339230

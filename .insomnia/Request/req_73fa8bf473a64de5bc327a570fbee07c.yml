@@ -1,0 +1,21 @@
+_id: req_73fa8bf473a64de5bc327a570fbee07c
+type: Request
+parentId: fld_418fb3cdadb141b5a53efe4da50acec7
+modified: 1663728544069
+created: 1663728421624
+url: "{{ _.url }}/alamisharia/mina2/auth/jwt/{{ _.sso }}"
+name: Get Token SSO
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1663728421624
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
