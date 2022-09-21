@@ -1,10 +1,13 @@
 _id: ut_9080efce39bd453cabc4291929324ad4
 type: UnitTest
 parentId: uts_ba722f4b537646ed9b1e7363d055241e
-modified: 1663728729252
+modified: 1663730581428
 created: 1663728689950
 requestId: req_73fa8bf473a64de5bc327a570fbee07c
 name: Get Token
 code: |-
   const response1 = await insomnia.send();
   expect(response1.status).to.equal(200);
+  const body = JSON.parse(response1.data);
+  const item = body[0];
+  console.log(item);
